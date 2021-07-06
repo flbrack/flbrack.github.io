@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>flbrack.com</title>
+    <link>https://flbrack.com/</link>
+    <description>Recent content on flbrack.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Fionn Bracken</copyright>
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://flbrack.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Based Disease Modelling - Interactive Intro</title>
+      <link>https://flbrack.com/posts/2021-07-01-agent/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/posts/2021-07-01-agent/</guid>
+      <description>My Masters Project: An Interactive Introduction As part of my Masters coursework I must complete a Summer project. Partly inspired by the recent events in the world, I have chosen to do my project on Agent Based Disease Modelling.
+Traditional Modelling Methods Modern mathematical modelling is a rich subject, which informs a huge part of our lives, from weather forecasts, to bookies&#39; prices, to public health advice. Disease modelling is of course one area that has been in the news a great deal lately, for obvious reasons.</description>
+    </item>
+    
+    <item>
+      <title>Making a Website with Hugo</title>
+      <link>https://flbrack.com/posts/2021-06-28-built-with-hugo/</link>
+      <pubDate>Mon, 28 Jun 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/posts/2021-06-28-built-with-hugo/</guid>
+      <description>How I Made This Website Everyone Should Have a Website Everyone should have their own website. In the early days of the of the internet, a much higher percentage of internet users had their own webpage. As the internet opened up to less tech-savvy people, social media websites became the places where people would share their thoughts. This is for good reason, humans are social animals and social media allowed for much greater interaction and social networking than personal webpages.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://flbrack.com/about/</link>
+      <pubDate>Wed, 24 Aug 2016 17:51:42 +0000</pubDate>
+      
+      <guid>https://flbrack.com/about/</guid>
+      <description>My name is Fionn Bracken and this is my website.
+I am currently studying for an MSc in Data and Computational Science at University College Dublin. I studied maths for my undergrad, and enjoy both coding and chess, but I promise I&amp;rsquo;m not as nerdy in real life as I sound on paper.
+Other nerdy interests include data science and reading, while some non-nerdy interests are swimming, cycling and supporting my local music scene.</description>
+    </item>
+    
+  </channel>
+</rss>

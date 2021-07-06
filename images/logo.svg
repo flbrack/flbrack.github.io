@@ -1,0 +1,84 @@
+<!DOCTYPE svg>
+<svg version="2.0" xmlns="http://www.w3.org/2000/svg" width="500px" height="500px" viewBox="0 0 24 24" fill='none'>
+
+<circle cx='12' cy='15' r='4' fill='#ca4fff' style='filter: url("#motionFilter");'/>
+<circle cx='14' cy='9' r='4' fill='#4fffc6' style='filter: url("#motionFilter");'/>
+<circle cx='8' cy='9' r='4' fill='#f7d72c' style='filter: url("#motionFilter");'/>
+
+<g id="Flower">
+	<g id='Petal'>
+	<path  fill='none' stroke-width="0.5" stroke='url(#myGradient)'
+		transform="
+				rotate(0,12,12)
+				translate(6,10)
+				scale(0.5)
+				"
+		d="
+		M 12, 4
+		c -2, 2, -11, 14, -2, 16
+		l 2, -4
+		l 2, 4
+		c 9, -2, 0, -14, -2, -16
+		z
+		"/>
+	<circle r='0.8' fill='red' >
+		<animateMotion dur="5s" repeatCount="indefinite" 
+			path="
+				M 12, 19.5
+				v 1
+				v -1"/>
+
+	</circle>	
+
+	<circle r='0.5' fill='yellow'>
+		<animateMotion dur="5s" repeatCount="indefinite" 
+			path="
+				M 12, 20
+				v 1
+				v -1
+				z"/>
+	</circle>
+	</g>
+
+	<g transform="rotate(45,12,12)">
+	<use href='#Petal'/>
+	</g>
+	<g transform="rotate(90,12,12)">
+	<use href='#Petal'/>
+	</g>
+	<g transform="rotate(135,12,12)">
+	<use href='#Petal'/>
+	</g>
+	<g transform="rotate(180,12,12)">
+	<use href='#Petal'/>
+	</g>
+	<g transform="rotate(-45,12,12)">
+	<use href='#Petal'/>
+	</g>
+	<g transform="rotate(-90,12,12)">
+	<use href='#Petal'/>
+	</g>
+	<g transform="rotate(-135,12,12)">
+	<use href='#Petal'/>
+	</g>
+	<animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 12 12"
+                          to="360 12 12"
+                          dur="20s"
+                          repeatCount="indefinite"/>
+</g>
+
+  <defs>
+    <linearGradient id="myGradient">
+      <stop offset="0%"   stop-color="darkgreen" />
+      <stop offset="100%" stop-color="lightgreen" />
+    </linearGradient>
+  </defs>
+
+<defs>
+<filter id="motionFilter" width="50" x="-8"><feGaussianBlur in="SourceGraphic" stdDeviation="0.8 0.8"></feGaussianBlur></filter>
+</defs>
+
+</svg>
