@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on flbrack.com</title>
+    <link>https://flbrack.com/tags/</link>
+    <description>Recent content in Tags on flbrack.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Fionn Bracken</copyright>
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://flbrack.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Development</title>
+      <link>https://flbrack.com/tags/web-development/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://flbrack.com/tags/website/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maths</title>
+      <link>https://flbrack.com/tags/maths/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/tags/maths/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling</title>
+      <link>https://flbrack.com/tags/modelling/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/tags/modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://flbrack.com/tags/hugo/</link>
+      <pubDate>Mon, 28 Jun 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

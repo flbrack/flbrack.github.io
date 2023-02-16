@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on flbrack.com</title>
+    <link>https://flbrack.com/tags/website/</link>
+    <description>Recent content in Website on flbrack.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Fionn Bracken</copyright>
+    <lastBuildDate>Wed, 15 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://flbrack.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t Break The Web</title>
+      <link>https://flbrack.com/posts/2023-02-15-dont-break-the-web/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/posts/2023-02-15-dont-break-the-web/</guid>
+      <description>Don&amp;rsquo;t Break The Web As a web developer, I like to follow prominent people working in the web on twitter. It was there that I came across this exchange between Rich Harris, the creator of the web framework Svelte, and Jarred Sumner, the creator of the new javascript runtime Bun.
+Smooshgate?
+As much as I think people should have their own website, this exchange does highlight some of what&amp;rsquo;s great about social media.</description>
+    </item>
+    
+    <item>
+      <title>Making a Website with Hugo</title>
+      <link>https://flbrack.com/posts/2021-06-28-built-with-hugo/</link>
+      <pubDate>Mon, 28 Jun 2021 10:00:00 +0000</pubDate>
+      
+      <guid>https://flbrack.com/posts/2021-06-28-built-with-hugo/</guid>
+      <description>How I Made This Website Everyone Should Have a Website Everyone should have their own website. In the early days of the of the internet, a much higher percentage of internet users had their own webpage. As the internet opened up to less tech-savvy people, social media websites became the places where people would share their thoughts. This is for good reason, humans are social animals and social media allowed for much greater interaction and social networking than personal webpages.</description>
+    </item>
+    
+  </channel>
+</rss>

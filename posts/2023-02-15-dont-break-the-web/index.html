@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Don&#39;t Break The Web | flbrack.com</title>
+  <meta name="description" content="Hello and welcome to my website. Read some of my musings in the Posts section, see some of my personal projects in the Projects section, and learn more about me on the About page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Don&#39;t Break The Web" />
+<meta property="og:description" content="Don&rsquo;t Break The Web As a web developer, I like to follow prominent people working in the web on twitter. It was there that I came across this exchange between Rich Harris, the creator of the web framework Svelte, and Jarred Sumner, the creator of the new javascript runtime Bun.
+Smooshgate?
+As much as I think people should have their own website, this exchange does highlight some of what&rsquo;s great about social media." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://flbrack.com/posts/2023-02-15-dont-break-the-web/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-02-15T00:00:00+00:00" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Don&#39;t Break The Web"/>
+<meta name="twitter:description" content="Don&rsquo;t Break The Web As a web developer, I like to follow prominent people working in the web on twitter. It was there that I came across this exchange between Rich Harris, the creator of the web framework Svelte, and Jarred Sumner, the creator of the new javascript runtime Bun.
+Smooshgate?
+As much as I think people should have their own website, this exchange does highlight some of what&rsquo;s great about social media."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://flbrack.com/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/svg" href="https://flbrack.com/images/favicon.svg" />
+
+  
+  
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Posts</a></li>
+         
+        <li><a href="/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://flbrack.com/posts/2021-07-01-agent/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&text=Don%27t%20Break%20The%20Web" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&title=Don%27t%20Break%20The%20Web" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&is_video=false&description=Don%27t%20Break%20The%20Web" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Don%27t%20Break%20The%20Web&body=Check out this article: https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&title=Don%27t%20Break%20The%20Web" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&title=Don%27t%20Break%20The%20Web" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&name=Don%27t%20Break%20The%20Web&description=Don%26rsquo%3bt%20Break%20The%20Web%20As%20a%20web%20developer%2c%20I%20like%20to%20follow%20prominent%20people%20working%20in%20the%20web%20on%20twitter.%20It%20was%20there%20that%20I%20came%20across%20this%20exchange%20between%20Rich%20Harris%2c%20the%20creator%20of%20the%20web%20framework%20Svelte%2c%20and%20Jarred%20Sumner%2c%20the%20creator%20of%20the%20new%20javascript%20runtime%20Bun.%0aSmooshgate%3f%0aAs%20much%20as%20I%20think%20people%20should%20have%20their%20own%20website%2c%20this%20exchange%20does%20highlight%20some%20of%20what%26rsquo%3bs%20great%20about%20social%20media." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&t=Don%27t%20Break%20The%20Web" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#fishing-for-web-traffic">Fishing for Web Traffic</a></li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Don&#39;t Break The Web
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2023-02-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">Wed Feb 15 2023</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/tags/website" rel="tag">Website</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/web-development" rel="tag">Web Development</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <h1 id="dont-break-the-web">Don&rsquo;t Break The Web</h1>
+<p>As a web developer, I like to follow prominent people working in the web on twitter. It was there that I came across <a href="https://twitter.com/jarredsumner/status/1620420212913999874">this
+exchange</a> between Rich Harris, the creator of the web framework Svelte, and Jarred Sumner, the creator of the
+new javascript runtime Bun.</p>
+<figure><img src="/images/svelte_bun.png"
+         alt="Smooshgate?" width="500"/><figcaption>
+            <p>Smooshgate?</p>
+        </figcaption>
+</figure>
+
+<p>As much as I think people should have their own website, this exchange does highlight some of what&rsquo;s great about social media. Getting to see two experts have an open
+discussion and technical debate in public view, is worth praising.</p>
+<p>The details of what they&rsquo;re discussing doesn&rsquo;t matter. What really piqued my interest was the mention of &lsquo;Smooshgate&rsquo;. I wondered what is smooshgate? It obviously
+isn&rsquo;t good, but it sounds like some sort of tasty, supermarket, own-brand milkshake.</p>
+<p>So, naturally, I googled it, and the first thing that popped up was a page on the Chrome developers site, titled <a href="https://developer.chrome.com/blog/smooshgate/">&ldquo;SmooshGate FAQ&rdquo;</a>.
+Ah! Exactly what I was looking for!</p>
+<p>The FAQ is worth reading for yourself, but I&rsquo;ll just give a very quick overview of Smooshgate. Back in the day, there was a popular javascript library called MooTools. This
+provided developers with a useful array method called <code>.flatten()</code>. However, they used a wonky implementation, so that in 2018, when browsers shipped a new, native javascript
+method called <code>.flatten()</code>, it broke old websites that used MooTools. This caused a bit of panic, but the browsers decided to rename their method. People jokingly suggested
+<code>.smoosh()</code> as the replacement, hence the name Smooshgate, but they ended up going with <code>.flat()</code>.</p>
+<p>What they make clear in the FAQ, is that the browsers had to rename it, because otherwise old websites that were working, would now be broken. A key design principle among
+the people who decide these things, is &ldquo;Don&rsquo;t Break The Web&rdquo;. An old website should not stop working because of a feature added for new websites. This is, I think, a
+good decision.</p>
+<p>An example they use, is that of <a href="https://www.spacejam.com/1996/">the promotional website</a> for the 1996 film Space Jam. Someone created this website over 25 years ago, and
+it&rsquo;s still up today. That is a good thing. Things shouldn&rsquo;t just break because developers wanted a shiny new javascript feature.</p>
+<p>I wanted to write this post, as a sort of homage to the idea of &ldquo;Don&rsquo;t Break The Web&rdquo;, and to some of my favourite websites. Not ones I use often, or really at all. But
+websites that just make me happy that they exist, and that, somehow, still work.</p>
+<h2 id="fishing-for-web-traffic">Fishing for Web Traffic</h2>
+<p>I have a friend who loves fishing, and one day he showed me the <a href="http://homepage.eircom.net/~swrfb/">website</a> for the, now defunct, South Western Regional Fisheries Board.
+Please take some time to enjoy this website. The design, the colour palette, the comic sans font, the microsoft paint drawn images, and of course the amazing fish animations.</p>
+<figure><img src="/images/fish.gif"
+         alt="Smells Fishy" width="400"/><figcaption>
+            <p>Smells Fishy</p>
+        </figcaption>
+</figure>
+
+<p>Of course, a website for an organisation that no longer exists raises some questions. Who? Why? How? More specifically, what server was still serving this page, all these
+years later? After looking through some of the pages, the Angling News tells us that this site dates back to January 2003, not long after Ireland switched to the euro, which
+explains why some pages use both euro and punt.</p>
+<p>The answer to my question is in the url, <code>http://homepage.eircom.net/~swrfb/</code>. Eircom was of course, the national, public telecoms company of Ireland back in those days. My
+guess is that customers were allowed to create their own homepage, with each of them using <code>homepage.eircom.net</code> as the base domain, and the final part, eg. <code>~swrfb</code>,
+identifying individual homepages, especially as ~ is often used to represent a home directory in computer settings. Eircom was later privatised and renamed Eir, the
+base url itself, and <code>http://homepage.eircom.net</code>, eventually redirects to <code>https://www.eir.ie</code>.</p>
+<p>This did raise some more questions, if <code>~swrfb</code> is still a working website, what others are out there? So I took it upon myself to try random words and letters in the hope of
+stumbling upon some more. The ones I managed to find are,</p>
+<ul>
+<li><a href="http://homepage.eircom.net/~weather/">http://homepage.eircom.net/~weather/</a>, which seems to have been made by a primary school in Finglas, and has a nice quiz,</li>
+<li><a href="http://homepage.eircom.net/~women/">http://homepage.eircom.net/~women/</a> which is s a women&rsquo;s organisation from Mayo, and features a picture with the now somewhat
+infamous,
+former politician Padraig Flynn.</li>
+<li><a href="http://homepage.eircom.net/~cpi/">http://homepage.eircom.net/~cpi/</a> which shows how technologically advanced Irish communists can be.</li>
+<li>And lastly, <a href="http://homepage.eircom.net/~gaa/">http://homepage.eircom.net/~gaa/</a> is a test page, that gives some insight into the technical capabilities of the other pages,
+such as the fact that they were limited to 20 Mb.</li>
+</ul>
+<p>These aren&rsquo;t the only old web pages out there, and efforts like <a href="https://web.archive.org/">web archive</a> do admirable work to keep broken websites accessible, but nothing beats a
+webpage still functioning 20 years after it&rsquo;s been forgotten by the people that made it. If you find any other old websites, let me know, and remember, Don&rsquo;t Break The Web.</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/posts">Posts</a></li>
+         
+          <li><a href="/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#fishing-for-web-traffic">Fishing for Web Traffic</a></li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&text=Don%27t%20Break%20The%20Web" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&title=Don%27t%20Break%20The%20Web" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&is_video=false&description=Don%27t%20Break%20The%20Web" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Don%27t%20Break%20The%20Web&body=Check out this article: https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&title=Don%27t%20Break%20The%20Web" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&title=Don%27t%20Break%20The%20Web" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&name=Don%27t%20Break%20The%20Web&description=Don%26rsquo%3bt%20Break%20The%20Web%20As%20a%20web%20developer%2c%20I%20like%20to%20follow%20prominent%20people%20working%20in%20the%20web%20on%20twitter.%20It%20was%20there%20that%20I%20came%20across%20this%20exchange%20between%20Rich%20Harris%2c%20the%20creator%20of%20the%20web%20framework%20Svelte%2c%20and%20Jarred%20Sumner%2c%20the%20creator%20of%20the%20new%20javascript%20runtime%20Bun.%0aSmooshgate%3f%0aAs%20much%20as%20I%20think%20people%20should%20have%20their%20own%20website%2c%20this%20exchange%20does%20highlight%20some%20of%20what%26rsquo%3bs%20great%20about%20social%20media." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fflbrack.com%2fposts%2f2023-02-15-dont-break-the-web%2f&t=Don%27t%20Break%20The%20Web" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2023  Fionn Bracken 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Posts</a></li>
+         
+        <li><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>

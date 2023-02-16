@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Making a Website with Hugo | flbrack.com</title>
+  <meta name="description" content="Hello and welcome to my website. Read some of my musings in the Posts section, see some of my personal projects in the Projects section, and learn more about me on the About page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Making a Website with Hugo" />
+<meta property="og:description" content="How I Made This Website Everyone Should Have a Website Everyone should have their own website. In the early days of the of the internet, a much higher percentage of internet users had their own webpage. As the internet opened up to less tech-savvy people, social media websites became the places where people would share their thoughts. This is for good reason, humans are social animals and social media allowed for much greater interaction and social networking than personal webpages." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://flbrack.com/posts/2021-06-28-built-with-hugo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-28T10:00:00+00:00" />
+<meta property="article:modified_time" content="2021-06-28T10:00:00+00:00" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Making a Website with Hugo"/>
+<meta name="twitter:description" content="How I Made This Website Everyone Should Have a Website Everyone should have their own website. In the early days of the of the internet, a much higher percentage of internet users had their own webpage. As the internet opened up to less tech-savvy people, social media websites became the places where people would share their thoughts. This is for good reason, humans are social animals and social media allowed for much greater interaction and social networking than personal webpages."/>
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="https://flbrack.com/css/style-white.css">
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/svg" href="https://flbrack.com/images/favicon.svg" />
+
+  
+  
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Posts</a></li>
+         
+        <li><a href="/about">About</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://flbrack.com/about/" aria-label="Previous">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="https://flbrack.com/posts/2021-07-01-agent/" aria-label="Next">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#" aria-label="Share">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f" aria-label="Facebook">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&text=Making%20a%20Website%20with%20Hugo" aria-label="Twitter">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&title=Making%20a%20Website%20with%20Hugo" aria-label="Linkedin">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&is_video=false&description=Making%20a%20Website%20with%20Hugo" aria-label="Pinterest">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Making%20a%20Website%20with%20Hugo&body=Check out this article: https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f" aria-label="Email">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&title=Making%20a%20Website%20with%20Hugo" aria-label="Pocket">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&title=Making%20a%20Website%20with%20Hugo" aria-label="reddit">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&name=Making%20a%20Website%20with%20Hugo&description=How%20I%20Made%20This%20Website%20Everyone%20Should%20Have%20a%20Website%20Everyone%20should%20have%20their%20own%20website.%20In%20the%20early%20days%20of%20the%20of%20the%20internet%2c%20a%20much%20higher%20percentage%20of%20internet%20users%20had%20their%20own%20webpage.%20As%20the%20internet%20opened%20up%20to%20less%20tech-savvy%20people%2c%20social%20media%20websites%20became%20the%20places%20where%20people%20would%20share%20their%20thoughts.%20This%20is%20for%20good%20reason%2c%20humans%20are%20social%20animals%20and%20social%20media%20allowed%20for%20much%20greater%20interaction%20and%20social%20networking%20than%20personal%20webpages." aria-label="Tumblr">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&t=Making%20a%20Website%20with%20Hugo" aria-label="Hacker News">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#everyone-should-have-a-website">Everyone Should Have a Website</a></li>
+    <li><a href="#the-problem">The Problem</a></li>
+    <li><a href="#the-answer">The Answer</a></li>
+    <li><a href="#other-answers">Other Answers</a></li>
+    <li><a href="#recommendation">Recommendation</a></li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Making a Website with Hugo
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2021-06-28 10:00:00 &#43;0000 UTC" itemprop="datePublished">Mon Jun 28 2021</time>
+          
+        </div>
+        
+        
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/tags/website" rel="tag">Website</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/hugo" rel="tag">Hugo</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <h1 id="how-i-made-this-website">How I Made This Website</h1>
+<h2 id="everyone-should-have-a-website">Everyone Should Have a Website</h2>
+<p>Everyone should have their own website. In the early days of the of the internet, a much higher percentage of internet users had their own webpage. As the internet opened up to less tech-savvy people, social media websites became the places where people would share their thoughts. This is for good reason, humans are social animals and social media allowed for much greater interaction and social networking than personal webpages. Increasingly though, when you consider the privacy and security problems that are arising with social media companies, it seems a good hedge to have your own website too. Facebook has survived one antitrust lawsuit, but who is to say it will survive another and not go the way of MySpace. It seems wise then to have a backup. Especially as services like Netlify and Github Pages mean you can now host a static site for free. This website is currently hosted on Github Pages.</p>
+<h2 id="the-problem">The Problem</h2>
+<p>As someone who had been thinking about making a personal website for a while, what stopped me for a long time is that I was unsure of the best way to build it. I didn&rsquo;t know how to get what I wanted, in fact I wasn&rsquo;t entirely sure of what I did want. However, I knew what I didn&rsquo;t want.</p>
+<p>I mostly code in R and Python, for the purpose of data science and other mathematical programming, along with some scripting for other small projects. I didn&rsquo;t want to have to train myself to be a full stack web developer. Yes, I&rsquo;ve played around with Javascript, HTML and CSS before, but I didn&rsquo;t want to have to spend hours becoming an expert at CSS grids and build something from scratch to get a website that looked nice. I quite like minimal looking websites, but even then I knew that to have something that looked reasonably professional would just take much more time than I was willing to put in.</p>
+<p>I didn&rsquo;t want limited control and to not have the ability to go in and change things if I want a slightly different look. It might not be something I&rsquo;ll ever actually do, but the option to completely rewrite the website and alter it so that it is fully customised is something that feels important to me, even if I don&rsquo;t use it. Maybe one day I will become a CSS expert, and if that does happen then I want to be able to use it.</p>
+<p>A youtube channel I really enjoy is <a href="https://www.youtube.com/user/shiffman">The Coding Train</a>. He makes cool interactive animations using a JS library called p5.js. I prefer to use vanilla JS myself, but I want the ability to easily include any interactive animations I&rsquo;m inspired to make in my website, see <a href="https://flbrack.com/posts/2021-07-01-agent/">here</a> for an example. I don&rsquo;t want to be limited in the type of content I can include.</p>
+<p>I also don&rsquo;t want to have to build a backend myself. I&rsquo;ve messed around with Flask and Django before, but I&rsquo;m far from an expert. I knew it would take me too long to get up to speed with those, and that anything I made would just be too much effort for a website that is most likely insecure and buggy. One of the secrets of tech is to use tools that make things easier.</p>
+<p>However, most the pre-made solutions I was aware of just seemed clunky and overkill for what I wanted, without enough flexibility. Wordpress is the one that first springs to mind. It uses PHP and databases, which seemed like unnecessary bloat. The modern web is bloated enough as it is. Ever had to wait, for what feels like an eternity, for pictures to load on some news article you were reading?</p>
+<p>To summarise, I didn&rsquo;t want:</p>
+<ul>
+<li>A website that was bloated and overly complex for my needs.</li>
+<li>To have to build everything myself from scratch.</li>
+<li>To not be able to tweak things to my heart&rsquo;s content.</li>
+<li>To not be able to add cool interactive animations.</li>
+</ul>
+<h2 id="the-answer">The Answer</h2>
+<p>For a while these requirements lead to paralysis. Then I stumbled across a <a href="https://www.youtube.com/watch?v=mEZ1Hj5yQ-8">youtube video</a> recommending <a href="https://gohugo.io/">Hugo</a>, a static site generator. Hugo is built with the Go programming language, but no Go knowledge is necessary. There are hundreds of themes available that other people have created, I&rsquo;m using the Cactus theme. Hugo is able to take markdown files and convert them into a static site (it uses a template system that looks similar to Django). So I can just write posts in Markdown, which is nice because Markdown is much easier to write than HTML, and someone else has taken care of the details. But what&rsquo;s great for someone like me, who only knows some JS, HTML and CSS, is that the JS, HTML and CSS files are all there for me to edit. I can tweak them as much as I like, but I didn&rsquo;t have to build them from scratch.</p>
+<p>This also illustrates an important learning technique, especially in tech. When you have limited knowledge in an area, it can be much more informative to play around with other people&rsquo;s solutions, before making your own. If I had tried to make a website like this from scratch I would have simply gotten frustrated and given up.</p>
+<p>As a static site, in comparison to Wordpress, my website is much faster and less bloated. It does not need to query a database, it just has to serve the HTML webpage.</p>
+<p>Importantly, static doesn&rsquo;t mean boring! As I said, I can still include interactive elements in my website using javascript, and I can embed youtube videos, tweets and instagram posts.</p>
+<h2 id="other-answers">Other Answers</h2>
+<p>There are other static site generators available. One of the most popular is Gatsby. However, this uses React and GraphQL. These aren&rsquo;t technologies I&rsquo;m familiar with, and would decrease my ability to dig into the nuts and bolts of the website, without first learning these. It also requires Node.js, while Hugo is standalone, without any dependencies.</p>
+<p>The other popular one is Jekyll, I know this uses Ruby and is the default static site generator for Github Pages. This seems pretty similar to Hugo, though one slight advantage for Hugo is that because it uses Go instead of Ruby, it builds websites much faster. The Hugo documentation also seems more in-depth. Honestly though, one of the biggest reasons I used Hugo out of these two, is that it was just the first I came across.</p>
+<h2 id="recommendation">Recommendation</h2>
+<p>If you, like me, know how to code but don&rsquo;t know much about web development, then I really recommend creating your own website with a static site generator. Even if you don&rsquo;t have much coding experience, (it&rsquo;s never too late to learn), then Hugo or Jekyll are still good options, there are many tutorials online that will guide you through it, and every theme has an example site that you can easily adapt, but without the same level of customisation. Remember, the most important thing on a website is the content, of which you will have full control. Hugo even has some GUI frontends to make it easier to use. I&rsquo;m more than happy with the results.</p>
+
+    </div>
+  </article>
+
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/posts">Posts</a></li>
+         
+          <li><a href="/about">About</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#everyone-should-have-a-website">Everyone Should Have a Website</a></li>
+    <li><a href="#the-problem">The Problem</a></li>
+    <li><a href="#the-answer">The Answer</a></li>
+    <li><a href="#other-answers">Other Answers</a></li>
+    <li><a href="#recommendation">Recommendation</a></li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f" aria-label="Facebook">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&text=Making%20a%20Website%20with%20Hugo" aria-label="Twitter">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&title=Making%20a%20Website%20with%20Hugo" aria-label="Linkedin">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&is_video=false&description=Making%20a%20Website%20with%20Hugo" aria-label="Pinterest">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Making%20a%20Website%20with%20Hugo&body=Check out this article: https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f" aria-label="Email">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&title=Making%20a%20Website%20with%20Hugo" aria-label="Pocket">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&title=Making%20a%20Website%20with%20Hugo" aria-label="reddit">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&name=Making%20a%20Website%20with%20Hugo&description=How%20I%20Made%20This%20Website%20Everyone%20Should%20Have%20a%20Website%20Everyone%20should%20have%20their%20own%20website.%20In%20the%20early%20days%20of%20the%20of%20the%20internet%2c%20a%20much%20higher%20percentage%20of%20internet%20users%20had%20their%20own%20webpage.%20As%20the%20internet%20opened%20up%20to%20less%20tech-savvy%20people%2c%20social%20media%20websites%20became%20the%20places%20where%20people%20would%20share%20their%20thoughts.%20This%20is%20for%20good%20reason%2c%20humans%20are%20social%20animals%20and%20social%20media%20allowed%20for%20much%20greater%20interaction%20and%20social%20networking%20than%20personal%20webpages." aria-label="Tumblr">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fflbrack.com%2fposts%2f2021-06-28-built-with-hugo%2f&t=Making%20a%20Website%20with%20Hugo" aria-label="Hacker News">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+
+  <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2023  Fionn Bracken 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">Posts</a></li>
+         
+        <li><a href="/about">About</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>
